@@ -1,4 +1,3 @@
-import scala.collection.mutable
 import scala.collection.mutable.ListBuffer
 
 object Euler39 {
@@ -40,7 +39,7 @@ object Euler39 {
   }
 
   def isInteger(number: Double): Boolean = {
-    Math.ceil(number) == Math.floor(number);
+    Math.ceil(number) == Math.floor(number)
   }
 
 }
