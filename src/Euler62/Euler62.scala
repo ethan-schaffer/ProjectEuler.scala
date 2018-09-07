@@ -1,5 +1,3 @@
-import scala.collection.mutable
-
 object Euler62 {
   def main(args: Array[String]): Unit = {
     /*
@@ -28,7 +26,7 @@ object Euler62 {
       val newList = List.concat(current, List(number))
       if(newList.length == 5){
         foundSolution = true
-        println(newList)
+        println(newList.head)
       } else {
         results += (charList -> newList)
       }
